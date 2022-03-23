@@ -15,7 +15,7 @@
     "looping"
   ],
   "bugs": {
-    "url": "https://github.com/prateek3255/react-native-infinite-looping-scroll/issues"
+    "url": "https://github.com/Balaji-Rahunathan/react-native-video-player-ui/issues"
   },
   "dependencies": {
     "prop-types": "15.5.10"
@@ -32,6 +32,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prateek3255/react-native-infinite-looping-scroll.git"
+    "url": "git+https://github.com/Balaji-Rahunathan/react-native-video-player-ui.git"
   }
 }
