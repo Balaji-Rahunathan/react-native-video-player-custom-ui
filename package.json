@@ -1,5 +1,5 @@
 {
-  "name": "react-native-video-player-ui",
+  "name": "react-native-video-player-custom-ui",
   "version": "1.0.0",
   "description": "React native video player controls ",
   "main": "src/index.js",
@@ -15,7 +15,7 @@
     "looping"
   ],
   "bugs": {
-    "url": "https://github.com/Balaji-Rahunathan/react-native-video-player-ui/issues"
+    "url": "https://github.com/Balaji-Rahunathan/react-native-video-player-custom-ui/issues"
   },
   "dependencies": {
     "prop-types": "15.5.10"
@@ -32,6 +32,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Balaji-Rahunathan/react-native-video-player-ui.git"
+    "url": "git+https://github.com/Balaji-Rahunathan/react-native-video-player-custom-ui.git"
   }
 }
