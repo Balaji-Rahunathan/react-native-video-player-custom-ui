@@ -2,7 +2,7 @@
   "name": "react-native-video-player-custom-ui",
   "version": "1.0.0",
   "description": "React native video player controls ",
-  "main": "src/index.js",
+  "main": "src/index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
