@@ -192,7 +192,7 @@ const CustomVideoPlayer = forwardRef((props: ICustomVideoPlayer, ref: any) => {
             justifyContent: 'center',
           }}>
           <Image
-            source={!state.paused ? getPlayIcon() : getPauseIcon()}
+            source={!state.paused ? getPauseIcon() : getPlayIcon() }
             style={{ width: !state.paused ? 20 : 25, height: !state.paused ? 20 : 25, tintColor: props.theme }}
           />
         </TouchableOpacity>

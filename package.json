@@ -1,6 +1,6 @@
 {
   "name": "react-native-video-player-custom-ui",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "React native video player controls ",
   "main": "src/index.tsx",
   "scripts": {
