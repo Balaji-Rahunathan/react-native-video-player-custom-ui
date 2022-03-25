@@ -18,9 +18,22 @@ import CustomVideoPlayer from 'rreact-native-video-player-custom-ui';
 
 const Test = (props: any) => {
   return (
-      <CustomVideoPlayer uri={"https://augmo.in/sample.mp4"}/>
+      <CustomVideoPlayer uri={"YOUR_VIDEO_URL"}/>
   )
 }
+
+## Props
+
+Prop                  | Type          | Optional | Default                   | Description
+--------------------- | ------------- | -------- | ------------------------- | -----------
+uri                   | string        | No       | null                      | supports video url and storage url
+width                 | number|string | Yes      | "100%"                    | width of the player
+height                | number|string | Yes      | "100%"                    | height of the player
+seekBarWidth          | number|string | Yes      | "80%"                     | width of the seekbar
+controls              | boolean       | yes      | true                      | show/hide controls
+playIcon              | number        | yes      | image                     | custom icon for play
+pauseIcon             | number        | yes      | image                     | custom icon for pause
+replayIcon            | number        | yes      | image                     | custom icon for replay
 
 ```
 ## Contributing

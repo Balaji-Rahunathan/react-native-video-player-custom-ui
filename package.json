@@ -1,6 +1,6 @@
 {
   "name": "react-native-video-player-custom-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React native video player controls ",
   "main": "src/index.tsx",
   "scripts": {
@@ -10,19 +10,20 @@
   "license": "ISC",
   "keywords": [
     "react-native",
-    "infinite",
-    "scroll",
-    "looping"
+    "video",
+    "video player",
+    "video player ui"
   ],
   "bugs": {
     "url": "https://github.com/Balaji-Rahunathan/react-native-video-player-custom-ui/issues"
   },
   "dependencies": {
-    "prop-types": "15.5.10"
+    "prop-types": "15.5.10",
+    "react-native-slider": "^0.11.0"
   },
   "peerDependencies": {
-    "react": "^16.0.0-beta.5",
-    "react-native": "^0.49.1"
+    "react": "*",
+    "react-native": "*"
   },
   "devDependencies": {
     "babel-jest": "22.4.4",
