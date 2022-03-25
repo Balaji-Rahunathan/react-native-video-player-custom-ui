@@ -219,8 +219,8 @@ const CustomVideoPlayer = forwardRef((props: ICustomVideoPlayer, ref: any) => {
 })
 
 CustomVideoPlayer.defaultProps = {
-  height: "25%",
-  width: "90%",
+  height: "30%",
+  width: "100%",
   theme: "white",
   play: false,
   autoplay: false,

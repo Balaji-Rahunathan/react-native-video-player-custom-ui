@@ -28,7 +28,7 @@ Prop                  | Type          | Optional | Default                   | D
 --------------------- | ------------- | -------- | ------------------------- | -----------
 uri                   | string        | No       | null                      | supports video url and storage url
 width                 | number|string | Yes      | "100%"                    | width of the player
-height                | number|string | Yes      | "100%"                    | height of the player
+height                | number|string | Yes      | "30%"                     | height of the player
 seekBarWidth          | number|string | Yes      | "80%"                     | width of the seekbar
 controls              | boolean       | yes      | true                      | show/hide controls
 playIcon              | number        | yes      | image                     | custom icon for play
