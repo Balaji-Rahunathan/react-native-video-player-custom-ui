@@ -4,7 +4,7 @@ A react native component that lets you create custom ui for video player.
 
 ## Installation
 
-Run `npm install rreact-native-video-player-custom-ui` in your project directory.
+Run `npm install react-native-video-player-custom-ui` in your project directory.
 
 Note: This package needs peer dependency of react-native-video please install and configure before you proceed.
 
