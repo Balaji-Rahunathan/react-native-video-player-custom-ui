@@ -12,7 +12,12 @@
     "react-native",
     "video",
     "video player",
-    "video player ui"
+    "video player ui",
+    "custom video player",
+    "custom video player ui",
+    "react native video",
+    "react native video player",
+    "react native video controls"
   ],
   "bugs": {
     "url": "https://github.com/Balaji-Rahunathan/react-native-video-player-custom-ui/issues"
