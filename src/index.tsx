@@ -114,6 +114,22 @@ const CustomVideoPlayer = forwardRef((props: ICustomVideoPlayer, ref: any) => {
     }
   };
 
+  const getPlayIcon=()=>{
+      if(props.playIcon) {
+        return props.playIcon;
+      }else {
+        return Play
+      }
+  }
+
+  const getPauseIcon = () => {
+    if (props.pauseIcon) {
+      return props.pauseIcon;
+    } else {
+      return Pause
+    }
+  }
+
   // console.log(videoRef.current)
   return (
     <View
@@ -176,7 +192,7 @@ const CustomVideoPlayer = forwardRef((props: ICustomVideoPlayer, ref: any) => {
             justifyContent: 'center',
           }}>
           <Image
-            source={!state.paused ? props.pauseIcon ? props.pauseIcon : Pause : props.playIcon ? props.playIcon : Play}
+            source={!state.paused ? getPlayIcon() : getPauseIcon()}
             style={{ width: !state.paused ? 20 : 25, height: !state.paused ? 20 : 25, tintColor: props.theme }}
           />
         </TouchableOpacity>
