@@ -21,7 +21,7 @@ const Test = (props: any) => {
       <CustomVideoPlayer uri={"YOUR_VIDEO_URL"}/>
   )
 }
-
+```
 ## Props
 
 Prop                  | Type          | Optional | Default                   | Description
@@ -36,6 +36,7 @@ pauseIcon             | number        | yes      | image                     | c
 replayIcon            | number        | yes      | image                     | custom icon for replay
 
 ```
+```
 ## Contributing
 
-This is project is still in beta at the moment, but is still very basic, so if you want to work on the above mention tasks, or you find a bug just open a PR or an issue and ping me!
+If you find a bug just open a PR or an issue and ping me!
