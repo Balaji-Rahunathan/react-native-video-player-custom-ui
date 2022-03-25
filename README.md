@@ -27,14 +27,24 @@ const Test = (props: any) => {
 Prop                  | Type          | Optional | Default                   | Description
 --------------------- | ------------- | -------- | ------------------------- | -----------
 uri                   | string        | No       | null                      | supports video url and storage url
-width                 | number|string | Yes      | "100%"                    | width of the player
-height                | number|string | Yes      | "30%"                     | height of the player
-seekBarWidth          | number|string | Yes      | "80%"                     | width of the seekbar
-controls              | boolean       | yes      | true                      | show/hide controls
+play                  | boolean       | yes      | false                     | handles playback
+width                 | number|string | Yes      | 100%                      | width of the player
+height                | number|string | Yes      | 30%                       | height of the player
+autoplay              | boolean       | yes      | false                     | handles autoplay
+loop                  | boolean       | yes      | false                     | video will play continously
 playIcon              | number        | yes      | image                     | custom icon for play
 pauseIcon             | number        | yes      | image                     | custom icon for pause
 replayIcon            | number        | yes      | image                     | custom icon for replay
-
+theme                 | string        | yes      | white                     | player color theme
+radius                | number        | yes      | 10                        | border radius for player
+controls              | boolean       | yes      | true                      | show/hide controls
+seekBarWidth          | number|string | Yes      | 80%                       | width of the seekbar
+seekBarFilledColor    | string        | yes      | white                     | seek bar finished color
+seekBarUnfilledColor  | string        | yes      | white                     | seek bar unfinished color
+thumbStyle            | object        | yes      |                           | seekbar thumb style
+resizeMode            | string        | yes      | contain                   | player resize mode
+onComplete            | function      | yes      |                           | triggers on video completion
+onReplay              | function      | yes      |                           | triggers on replay
 ```
 ```
 ## Contributing

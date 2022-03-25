@@ -20,12 +20,9 @@ interface ICustomVideoPlayer {
   seekBarWidth?: String | number;
   seekBarFilledColor?: String;
   seekBarUnfilledColor?: String;
-  fullscreen?: boolean;
-  showSeekBar?: boolean;
   resizeMode?: string;
   onComplete?: any;
   loop?: boolean;
-  replay?: any;
   onReplay?: any;
   radius?: number;
   thumbStyle?: object;
