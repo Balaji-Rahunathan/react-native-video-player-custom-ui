@@ -14,7 +14,7 @@ This snippet would produce the output shown in the above gif
 
 ```
 import React, { Component } from 'react';
-import CustomVideoPlayer from 'rreact-native-video-player-custom-ui';
+import CustomVideoPlayer from 'react-native-video-player-custom-ui';
 
 const Test = (props: any) => {
   return (
